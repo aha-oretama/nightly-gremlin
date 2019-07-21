@@ -1,28 +1,30 @@
 {
-  "name": "nightly-gremlin",
+  "name": "nightly-gremlins",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "bin": "./bin/cli.js",
+  "man": "./man/doc.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aha-oretama/nightly-gremlin.git"
+    "url": "git+https://github.com/aha-oretama/nightly-gremlins.git"
   },
   "keywords": [
-    "gremlin",
+    "gremlins",
     "monkey",
     "testing",
     "automation",
     "test"
   ],
-  "author": "",
+  "author": "aha-oretama",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/aha-oretama/nightly-gremlin/issues"
+    "url": "https://github.com/aha-oretama/nightly-gremlins/issues"
   },
-  "homepage": "https://github.com/aha-oretama/nightly-gremlin#readme",
+  "homepage": "https://github.com/aha-oretama/nightly-gremlins#readme",
   "dependencies": {
     "gremlins.js": "^0.1.0",
     "puppeteer": "^1.18.1"
